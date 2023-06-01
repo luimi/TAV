@@ -1,0 +1,506 @@
+[
+    {
+        "id": 1,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Comunicación",
+        "text": "Siento mucha confianza a la hora de comunicarme con otras personas"
+    },
+    {
+        "id": 2,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Comunicación",
+        "text": "Me va muy bien cuando realizo exposiciones o presentaciones en público"
+    },
+    {
+        "id": 3,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Comunicación",
+        "text": "Puedo entablar fácilmente una conversación con una persona desconocida"
+    },
+    {
+        "id": 4,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Resolución de problemas",
+        "text": "Identifico con facilidad las causas de los problemas"
+    },
+    {
+        "id": 5,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Resolución de problemas",
+        "text": "Puedo resolver de manera rápida cualquier problema que identifique"
+    },
+    {
+        "id": 6,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Resolución de problemas",
+        "text": "No quedo tranquilo/a hasta no resolver totalmente un problema"
+    },
+    {
+        "id": 7,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Trabajo en equipo",
+        "text": "Me va mejor trabajando en equipo que individualmente"
+    },
+    {
+        "id": 8,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Trabajo en equipo",
+        "text": "Me adapto con facilidad a los grupos o equipos con los que me toca trabajar"
+    },
+    {
+        "id": 9,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Trabajo en equipo",
+        "text": "Siempre cumplo con todas las tareas o responsabilidades que me asignan en un trabajo en grupo"
+    },
+    {
+        "id": 10,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Pensamiento crítico",
+        "text": "Antes de tomar una decisión busco información"
+    },
+    {
+        "id": 11,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Pensamiento crítico",
+        "text": "Siempre tengo mucho cuidado de verificar la información que necesito para tomar una decisión"
+    },
+    {
+        "id": 12,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Pensamiento crítico",
+        "text": "Puedo encontrar patrones fácilmente cuando analizo información o datos"
+    },
+    {
+        "id": 13,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Creatividad",
+        "text": "Soy de esas personas que las demás personas identifican como creativo/as"
+    },
+    {
+        "id": 14,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Creatividad",
+        "text": "Exploro siempre formas creativas de realizar las tareas o responsabilidades que tengo asignadas"
+    },
+    {
+        "id": 15,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Creatividad",
+        "text": "Si se necesita creatividad para resolver un problema me llaman a mi"
+    },
+    {
+        "id": 16,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Liderazgo",
+        "text": "Cuando trabajo en grupo soy de las personas que toma la iniciativa antes que las demás"
+    },
+    {
+        "id": 17,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Liderazgo",
+        "text": "Con facilidad puedo organizar las tareas que cada persona tiene que realizar cuando trabajo en grupo"
+    },
+    {
+        "id": 18,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Liderazgo",
+        "text": "Puedo lograr con facilidad que las personas sigan mis ideas"
+    },
+    {
+        "id": 19,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Adaptabilidad",
+        "text": "Me adapto rápidamente a los cambios o situaciones que no estaban previstas"
+    },
+    {
+        "id": 20,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Adaptabilidad",
+        "text": "Aunque las cosas no se den como esperaba, suelo aceptarlas y avanzar"
+    },
+    {
+        "id": 21,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Adaptabilidad",
+        "text": "Cuando veo que los resultados no se están dando, puedo cambiar mi forma de trabajar"
+    },
+    {
+        "id": 22,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Manejo del tiempo",
+        "text": "Cumplo siempre con los plazos de las entregas o tareas"
+    },
+    {
+        "id": 23,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Manejo del tiempo",
+        "text": "Cuando tengo varias tareas o responsabilidades establezco prioridades para dedicar más tiempo a algunas"
+    },
+    {
+        "id": 24,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Manejo del tiempo",
+        "text": "Puedo realizar varias tareas o responsabilidades al mismo tiempo"
+    },
+    {
+        "id": 25,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Organización",
+        "text": "Me considero una persona muy organizada"
+    },
+    {
+        "id": 26,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Organización",
+        "text": "Suelo organizar mis tareas o responsabilidades de acuerdo con algunos criterios"
+    },
+    {
+        "id": 27,
+        "type": "1to5",
+        "category": "Habilidades para la vida",
+        "variable": "Organización",
+        "text": "Antes de iniciar un trabajo planifico en detalle lo que voy a hacer"
+    },
+    {
+        "id": 28,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Matemáticas",
+        "text": "Me suele ir muy bien con los números"
+    },
+    {
+        "id": 29,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Matemáticas",
+        "text": "Me va mejor realizando cálculos matemáticos que cualquier otra actividad"
+    },
+    {
+        "id": 30,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Matemáticas",
+        "text": "Suelo tener facilidad para realizar cálculos matemáticos"
+    },
+    {
+        "id": 31,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Lectura y escritura",
+        "text": "Dedico una importante parte de mi tiempo en lecturas"
+    },
+    {
+        "id": 32,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Lectura y escritura",
+        "text": "Escribo textos coherentes con mucha facilidad"
+    },
+    {
+        "id": 33,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Lectura y escritura",
+        "text": "Suelo identificar fácilmente la tesis de un texto y los argumentos que la defienden"
+    },
+    {
+        "id": 34,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Ciencias",
+        "text": "Me seduce la idea de comprender cómo funcionan las cosas"
+    },
+    {
+        "id": 35,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Ciencias",
+        "text": "Soy capaz de buscar información certera que me permita comprender a profundidad un tema"
+    },
+    {
+        "id": 36,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Ciencias",
+        "text": "Puedo formular una hipótesis y plantear una manera para resolverla"
+    },
+    {
+        "id": 37,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Tecnologías",
+        "text": "Soy de esas personas a las que siempre les piden ayuda para el manejo de herramientas digitales"
+    },
+    {
+        "id": 38,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Tecnologías",
+        "text": "Suelo aprender rápidamente el uso de una nueva herramienta tecnológica"
+    },
+    {
+        "id": 39,
+        "type": "1to5",
+        "category": "Habilidades técnicas",
+        "variable": "Tecnologías",
+        "text": "Busco comprender cómo funcionan las plataformas digitales"
+    },
+    {
+        "id": 40,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Trabajar con equipos",
+        "text": "En un entorno laboral preferiría trabajar en equipo"
+    },
+    {
+        "id": 41,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Trabajar con equipos",
+        "text": "Prefiero trabajar acompañado y no en soledad"
+    },
+    {
+        "id": 42,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Servicio al cliente",
+        "text": "Me gusta ayudar a las personas a solucionar problemas"
+    },
+    {
+        "id": 43,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Servicio al cliente",
+        "text": "Preferiría trabajar en servicio al cliente antes que en servicios administrativos"
+    },
+    {
+        "id": 44,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Ventas",
+        "text": "Tengo las habilidades para convencer a las personas para que compren o adquieran productos y servicios"
+    },
+    {
+        "id": 45,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Ventas",
+        "text": "Preferiría trabajar en ventas antes que en labores administrativas"
+    },
+    {
+        "id": 46,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Datos",
+        "text": "Me gustaría trabajar en análisis de datos"
+    },
+    {
+        "id": 47,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Datos",
+        "text": "Prefiero trabajar con números que con textos"
+    },
+    {
+        "id": 48,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Ayudar a otros",
+        "text": "Si tuviera la oportunidad me gustaría trabajar ayudando a las personas"
+    },
+    {
+        "id": 49,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Ayudar a otros",
+        "text": "Me mueve más ayudar a las personas que trabajar con números"
+    },
+    {
+        "id": 50,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Interactuar con cosas o máquinas",
+        "text": "Prefiero trabajar interactuando con personas antes que trabajar interactuando con cosas o máquinas"
+    },
+    {
+        "id": 51,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Interactuar con cosas o máquinas",
+        "text": "Para mi es más interesante interactuar con personas que trabajar en solitario"
+    },
+    {
+        "id": 52,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Comunicar",
+        "text": "Me gustaría trabajar en un entorno donde tenga que hablar en público"
+    },
+    {
+        "id": 53,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Comunicar",
+        "text": "Preferiría trabajar escribiendo textos antes interactuar con personas"
+    },
+    {
+        "id": 54,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Entorno creativo",
+        "text": "Me gustaría trabajar en un entorno donde pueda ser muy creativo"
+    },
+    {
+        "id": 55,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Entorno creativo",
+        "text": "Elegiría un entorno donde pueda innovar antes que uno donde tenga que hacer cosas preestablecidas"
+    },
+    {
+        "id": 56,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Entorno estable",
+        "text": "Para mi siempre será mejor un trabajo donde todo este planificado con anticipación"
+    },
+    {
+        "id": 57,
+        "type": "1to5",
+        "category": "Intereses",
+        "variable": "Entorno estable",
+        "text": "Preferiría un entorno para trabajar estable, antes que uno donde las cosas cambien con frecuencia"
+    },
+    {
+        "id": 58,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Apertura",
+        "text": "Soy de esas personas que son muy abiertas en entornos sociales"
+    },
+    {
+        "id": 59,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Apertura",
+        "text": "Con facilidad puedo iniciar una conversación con personas extrañas"
+    },
+    {
+        "id": 60,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Apertura",
+        "text": "Me gusta probar nuevas actividades y explorar diferentes enfoques para resolver problemas"
+    },
+    {
+        "id": 61,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Responsabilidad",
+        "text": "Suelo ser muy organizado/a y planificar cuidadosamente mis tareas y responsabilidades"
+    },
+    {
+        "id": 62,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Responsabilidad",
+        "text": "Me esfuerzo por completar mis proyectos a tiempo y cumplir con mis compromisos"
+    },
+    {
+        "id": 63,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Responsabilidad",
+        "text": "Siempre asumo mis responsabilidades aunque no tenga deseos de realizar las tareas"
+    },
+    {
+        "id": 64,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Extraversión",
+        "text": "Me gusta socializar y conocer gente nueva en diferentes entornos sociales"
+    },
+    {
+        "id": 65,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Extraversión",
+        "text": "Disfruto estando en el centro de atención y participando activamente en conversaciones grupales"
+    },
+    {
+        "id": 66,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Extraversión",
+        "text": "Suelo sentirme energizado/a cuando interactúo con otras personas y tengo muchas oportunidades para socializar"
+    },
+    {
+        "id": 67,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Amabilidad",
+        "text": "Hago un esfuerzo por entender las perspectivas de los demás y tratar a las personas con empatía y comprensión"
+    },
+    {
+        "id": 68,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Amabilidad",
+        "text": "Me considero una persona amigable y dispuesta a ayudar a los demás cuando lo necesitan"
+    },
+    {
+        "id": 69,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Amabilidad",
+        "text": "Valoro las relaciones interpersonales y me esfuerzo por mantener un ambiente armonioso y pacífico"
+    },
+    {
+        "id": 70,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Estabilidad emocional",
+        "text": "Me mantengo calmado/a y tranquilo/a incluso en situaciones estresantes o desafiantes"
+    },
+    {
+        "id": 71,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Estabilidad emocional",
+        "text": "No me dejo afectar fácilmente por los contratiempos y puedo recuperarme rápidamente de los momentos difíciles"
+    },
+    {
+        "id": 72,
+        "type": "1to5",
+        "category": "Personalidad",
+        "variable": "Estabilidad emocional",
+        "text": "Suelo ser una persona emocionalmente estable y rara vez me veo abrumado/a por la ansiedad o la preocupación"
+    }
+]

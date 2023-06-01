@@ -1,0 +1,544 @@
+[
+    {
+        "title": "Servicios médicos",
+        "hv": {
+            "variables": [
+                "Adaptabilidad",
+                "Comunicación",
+                "Resolución de problemas"
+            ],
+            "min": 36
+        },
+        "ht": {
+            "variables": [
+                "Ciencias",
+                "Lectura y escritura"
+            ],
+            "min": 36
+        },
+        "i": {
+            "variables": [
+                "Ayudar a otros",
+                "Comunicar",
+                "Servicio al cliente"
+            ],
+            "min": 24
+        },
+        "p": {
+            "variables": [
+                "Amabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 24
+        }
+    },
+    {
+        "title": "Ingenierías",
+        "hv": {
+            "variables": [
+                "Adaptabilidad",
+                "Liderazgo",
+                "Organización",
+                "Creatividad",
+                "Pensamiento crítico",
+                "Resolución de problemas",
+                "Manejo del tiempo"
+            ],
+            "min": 96
+        },
+        "ht": {
+            "variables": [
+                "Matemáticas",
+                "Tecnologías"
+            ],
+            "min": 24
+        },
+        "i": {
+            "variables": [
+                "Datos",
+                "Interactuar con cosas o máquinas",
+                "Entorno estable",
+                "Trabajar con equipos"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Estabilidad emocional",
+                "Responsabilidad"
+            ],
+            "min": 24
+        }
+    },{
+        "title": "Ciencias políticas y derecho",
+        "hv": {
+            "variables": [
+                "Adaptabilidad",
+                "Comunicación",
+                "Pensamiento crítico",
+                "Organización",
+                "Resolución de problemas",
+                "Liderazgo"
+            ],
+            "min": 72
+        },
+        "ht": {
+            "variables": [
+                "Lectura y escritura"
+            ],
+            "min": 12
+        },
+        "i": {
+            "variables": [
+                "Ayudar a otros",
+                "Servicio al cliente",
+                "Trabajar con equipos",
+                "Entorno estable",
+                "Comunicar"
+            ],
+            "min": 40
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Apertura",
+                "Amabilidad"
+            ],
+            "min": 36
+        }
+    },{
+        "title": "Tecnologías de la información",
+        "hv": {
+            "variables": [
+                "Creatividad",
+                "Pensamiento crítico",
+                "Resolución de problemas",
+                "Manejo del tiempo",
+                "Organización",
+                "Adaptabilidad"
+            ],
+            "min": 72
+        },
+        "ht": {
+            "variables": [
+                "Tecnologías",
+                "Matemáticas",
+                "Ciencias"
+            ],
+            "min": 36
+        },
+        "i": {
+            "variables": [
+                "Datos",
+                "Entorno creativo",
+                "Interactuar con cosas o máquinas",
+                "Trabajar con equipos",
+                "Comunicar"
+            ],
+            "min": 40
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 24
+        }
+    },{
+        "title": "Arquitectura y diseño",
+        "hv": {
+            "variables": [
+                "Adaptabilidad",
+                "Creatividad",
+                "Manejo del tiempo",
+                "Resolución de problemas",
+                "Pensamiento crítico",
+                "Organización"
+            ],
+            "min": 72
+        },
+        "ht": {
+            "variables": [
+                "Tecnologías",
+                "Matemáticas",
+                "Ciencias"
+            ],
+            "min": 36
+        },
+        "i": {
+            "variables": [
+                "Entorno creativo",
+                "Trabajar con equipos",
+                "Datos",
+                "Interactuar con cosas o máquinas"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 24
+        }
+    },{
+        "title": "Educación",
+        "hv": {
+            "variables": [
+                "Comunicación",
+                "Adaptabilidad",
+                "Creatividad",
+                "Liderazgo",
+                "Trabajo en equipo",
+                "Pensamiento crítico",
+                "Manejo del tiempo",
+                "Organización"
+            ],
+            "min": 96
+        },
+        "ht": {
+            "variables": [
+                "Lectura y escritura",
+                "Ciencias"
+            ],
+            "min": 24
+        },
+        "i": {
+            "variables": [
+                "Comunicar",
+                "Ayudar a otros",
+                "Entorno creativo",
+                "Trabajar con equipos"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Amabilidad",
+                "Responsabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 36
+        }
+    },{
+        "title": "Administración y negocios",
+        "hv": {
+            "variables": [
+                "Adaptabilidad",
+                "Comunicación",
+                "Organización",
+                "Manejo del tiempo",
+                "Trabajo en equipo",
+                "Resolución de problemas"
+            ],
+            "min": 72
+        },
+        "ht": {
+            "variables": [
+                "Matemáticas",
+                "Tecnologías"
+            ],
+            "min": 0
+        },
+        "i": {
+            "variables": [
+                "Datos",
+                "Entorno estable",
+                "Trabajar con equipos",
+                "Ventas",
+                "Servicio al cliente"
+            ],
+            "min": 40
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 24
+        }
+    },{
+        "title": "Ventas",
+        "hv": {
+            "variables": [
+                "Comunicación",
+                "Adaptabilidad",
+                "Creatividad",
+                "Liderazgo",
+                "Trabajo en equipo",
+                "Organización",
+                "Manejo del tiempo"
+            ],
+            "min": 84
+        },
+        "ht": {
+            "variables": [
+            ],
+            "min": 0
+        },
+        "i": {
+            "variables": [
+                "Ventas",
+                "Comunicar",
+                "Servicio al cliente",
+                "Trabajar con equipos",
+                "Entorno creativo"
+            ],
+            "min": 40
+        },
+        "p": {
+            "variables": [
+                "Extraversión",
+                "Amabilidad",
+                "Apertura"
+            ],
+            "min": 36
+        }
+    },{
+        "title": "Servicio al cliente",
+        "hv": {
+            "variables": [
+                "Comunicación",
+                "Adaptabilidad",
+                "Pensamiento crítico",
+                "Resolución de problemas",
+                "Organización",
+                "Manejo del tiempo",
+                "Trabajo en equipo"
+            ],
+            "min": 84
+        },
+        "ht": {
+            "variables": [],
+            "min": 0
+        },
+        "i": {
+            "variables": [
+                "Servicio al cliente",
+                "Ayudar a otros",
+                "Comunicar",
+                "Trabajar con equipos",
+                "Ventas"
+            ],
+            "min": 40
+        },
+        "p": {
+            "variables": [
+                "Amabilidad",
+                "Apertura",
+                "Estabilidad emocional",
+                "Extraversión"
+            ],
+            "min": 48
+        }
+    },{
+        "title": "Manufactura",
+        "hv": {
+            "variables": [
+                "Organización",
+                "Manejo del tiempo",
+                "Resolución de problemas",
+                "Trabajo en equipo"
+            ],
+            "min": 48
+        },
+        "ht": {
+            "variables": [],
+            "min": 0
+        },
+        "i": {
+            "variables": [
+                "Entorno creativo",
+                "Interactuar con cosas o máquinas",
+                "Trabajar con equipos"
+            ],
+            "min": 24
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 24
+        }
+    },{
+        "title": "Transporte",
+        "hv": {
+            "variables": [
+                "Organización",
+                "Resolución de problemas",
+                "Manejo del tiempo",
+                "Comunicación",
+                "Pensamiento crítico",
+                "Trabajo en equipo"
+            ],
+            "min": 72
+        },
+        "ht": {
+            "variables": [],
+            "min": 0
+        },
+        "i": {
+            "variables": [
+                "Entorno estable",
+                "Servicio al cliente",
+                "Interactuar con cosas o máquinas",
+                "Ayudar a otros"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Amabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 36
+        }
+    },{
+        "title": "Logistica",
+        "hv": {
+            "variables": [
+                "Organización",
+                "Resolución de problemas",
+                "Manejo del tiempo",
+                "Pensamiento crítico",
+                "Trabajo en equipo"
+            ],
+            "min": 60
+        },
+        "ht": {
+            "variables": [
+                "Matemáticas",
+                "Tecnologías"
+            ],
+            "min": 24
+        },
+        "i": {
+            "variables": [
+                "Datos",
+                "Entorno estable",
+                "Interactuar con cosas o máquinas",
+                "Trabajar con equipos"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 24
+        }
+    },{
+        "title": "Agricultura",
+        "hv": {
+            "variables": [
+                "Organización",
+                "Manejo del tiempo",
+                "Resolución de problemas",
+                "Trabajo en equipo",
+                "Adaptabilidad"
+            ],
+            "min": 60
+        },
+        "ht": {
+            "variables": [
+                "Ciencias"
+            ],
+            "min": 12
+        },
+        "i": {
+            "variables": [
+                "Interactuar con cosas o máquinas",
+                "Trabajar con equipos"
+            ],
+            "min": 16
+        },
+        "p": {
+            "variables": [
+                "Responsabilidad",
+                "Estabilidad emocional"
+            ],
+            "min": 24
+        }
+    },{
+        "title": "Turismo",
+        "hv": {
+            "variables": [
+                "Comunicación",
+                "Creatividad",
+                "Resolución de problemas",
+                "Trabajo en equipo",
+                "Adaptabilidad",
+                "Organización",
+                "Manejo del tiempo"
+            ],
+            "min": 84
+        },
+        "ht": {
+            "variables": [
+                "Lectura y escritura"
+            ],
+            "min": 12
+        },
+        "i": {
+            "variables": [
+                "Comunicar",
+                "Ayudar a otros",
+                "Servicio al cliente",
+                "Ventas"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Amabilidad",
+                "Apertura",
+                "Extraversión",
+                "Estabilidad emocional"
+            ],
+            "min": 48
+        }
+    },{
+        "title": "Comunicación y periodismo",
+        "hv": {
+            "variables": [
+                "Comunicación",
+                "Creatividad",
+                "Adaptabilidad",
+                "Pensamiento crítico",
+                "Manejo del tiempo",
+                "Organización",
+                "Trabajo en equipo"
+            ],
+            "min": 84
+        },
+        "ht": {
+            "variables": [
+                "Lectura y escritura",
+                "Tecnologías"
+            ],
+            "min": 24
+        },
+        "i": {
+            "variables": [
+                "Comunicar",
+                "Entorno creativo",
+                "Trabajar con equipos",
+                "Servicio al cliente",
+                "Datos",
+                "Ayudar a otros"
+            ],
+            "min": 48
+        },
+        "p": {
+            "variables": [
+                "Extraversión",
+                "Amabilidad",
+                "Apertura"
+            ],
+            "min": 36
+        }
+    }
+]

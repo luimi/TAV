@@ -1,0 +1,32 @@
+{
+    "inteligences": [
+        {
+            "title": "Int. Verbal",
+            "group": "a"
+        },
+        {
+            "title": "Int. Lógico-matemática",
+            "group": "b"
+        },
+        {
+            "title": "Int. Visual espacial",
+            "group": "c"
+        },
+        {
+            "title": "Int. kinestesica-corporal",
+            "group": "d"
+        },
+        {
+            "title": "Int. Musical-rítmica",
+            "group": "e"
+        },
+        {
+            "title": "Int. Intrapersonal",
+            "group": "f"
+        },
+        {
+            "title": "Int. Interpersonal",
+            "group": "g"
+        }
+    ]
+}

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Sample</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="react-app"></div>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script type="text/babel">
+        const Result = ({ result, type }) => {
+
+            const getData = () => {
+                if(!result || result.length == 0) return;
+                switch (type) {
+                    case "gardner":
+                        return (
+                            <table className="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Inteligencia</th>
+                                        <th scope="col">Calificacion</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {result.map((item, index) => {
+                                        return (
+                                            <tr key={`result-${index}`}>
+
+                                                <th>{item.title}</th>
+                                                <td>{item.fraction}</td>
+                                            </tr>
+                                        )
+                                    })}
+                                </tbody>
+                            </table>
+                        )
+                    case "kevin":
+                        return (
+                            <table className="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Area</th>
+                                        <th scope="col">Paso?</th>
+                                        <th scope="col">HV</th>
+                                        <th scope="col">HT</th>
+                                        <th scope="col">I</th>
+                                        <th scope="col">P</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {result.map((item, index) => {
+                                        return (
+                                            <tr key={`result-${index}`}>
+                                                <th>{item.title}</th>
+                                                <td>{item.pass ? "Si" : "No"}</td>
+                                                <td>{item.hv.score}</td>
+                                                <td>{item.ht.score}</td>
+                                                <td>{item.i.score}</td>
+                                                <td>{item.p.score}</td>
+                                            </tr>
+                                        )
+                                    })}
+                                </tbody>
+                            </table>
+                        )
+                }
+            }
+            return (
+                <div>
+                    {getData()}
+                </div>
+            )
+        }
+        const Question = ({ question, addAnswer }) => {
+            const getAnswers = (type) => {
+                let ansTF = [{ text: "Si", value: true }, { text: "No", value: false }];
+                let ans1TO5 = [{ text: "En nada me define", value: 1 }, { text: "Me define muy poco", value: 2 }, { text: "Me define en cierta medida", value: 3 }, { text: "Me define en gran medida", value: 4 }, { text: "Me define completamente", value: 5 }];
+                let options = [];
+                switch (type) {
+                    case "tf": options = ansTF; break;
+                    case "1to5": options = ans1TO5; break;
+                }
+                return options;
+            }
+            return (
+                <div className="card mt-2">
+                    <div className="card-body">
+                        <h5 className="card-title">{question.text}</h5>
+                        {getAnswers(question.type).map((option, index) => {
+                            return <div key={`option-${index}`} className="d-grid gap-2">
+                                <input type="radio" className="btn-check" name={`question-${question.id}`} id={`option-${question.id}-${index}`} />
+                                <label className="btn btn-light" htmlFor={`option-${question.id}-${index}`} onClick={() => {
+                                    addAnswer(question.id, option.value);
+                                }}>{option.text}</label>
+                            </div>
+                        })}
+                    </div>
+                </div>
+            )
+        }
+        const Test = ({ type, result, setResult }) => {
+            const [questions, setQuestions] = React.useState([]);
+            const [answers, setAnswers] = React.useState({});
+            
+            let path = window.location.href.replace("/sample", "");
+
+            React.useEffect(() => {
+                setAnswers({});
+                getQuestions();
+            }, [type]);
+            const getQuestions = async () => {
+                let result = await fetch(`${path}/questions?type=${type}`);
+                result = await result.json();
+                if (result.success) {
+                    setQuestions(result.data);
+                }
+            }
+            const sendAnswers = async (evt) => {
+                evt.preventDefault();
+
+                let result = await fetch(`${path}/answer?type=${type}`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(Object.values(answers))
+                });
+                result = await result.json();
+                if (result.success) {
+                    setResult(result.data);
+                } else {
+                    alert(result.message);
+                }
+            }
+            const addAnswer = (id, response) => {
+                let _answers = { ...answers };
+                _answers[id] = { id, response };
+                setAnswers(_answers);
+            }
+            const fillAnswers = () => {
+                let _answers = [];
+                switch (type) {
+                    case "gardner":
+                        questions.forEach(question => {
+                            _answers.push({ id: question.id, response: true });
+                        });
+                        break;
+                    case "kevin":
+                        questions.forEach(question => {
+                            _answers.push({ id: question.id, response: 5 });
+                        });
+                        break;
+                }
+                setAnswers(_answers);
+            }
+            return (
+                <form onSubmit={sendAnswers}>
+                    {questions.map((question) => {
+                        return <Question question={question} key={question.id} addAnswer={addAnswer} />
+                    })}
+                    <div className="d-grid gap-2">
+                        <button className="btn btn-light visually-hidden" type="button" onClick={fillAnswers}>Llenar respuestas</button>
+                        <button className="btn btn-light" type="submit">Enviar</button>
+                    </div>
+                    <Result result={result} type={type} />
+                </form>
+            )
+        }
+        const App = (props) => {
+            const [type, setType] = React.useState();
+            const [result, setResult] = React.useState([]);
+            const changeTest = (evt) => {
+                setResult([]);
+                setType(evt.target.value);
+            }
+            return (
+                <div>
+                    <nav className="navbar bg-body-tertiary">
+                        <div className="container-fluid">
+                            <a className="navbar-brand">TAV (Test de Aptitud Vocacional)</a>
+                        </div>
+                    </nav>
+                    <div className="p-3">
+                        <select className="form-select" aria-label="Test" value={type} onChange={changeTest}>
+                            <option>Seleccione un test</option>
+                            <option value="gardner">Gardner</option>
+                            <option value="kevin">Kevin</option>
+                        </select>
+                        {type?<Test type={type} result={result} setResult={setResult}/>:null}
+                    </div>
+
+                </div>
+            );
+        };
+        ReactDOM.render(<App />, document.getElementById('react-app')); 
+    </script>
+</body>
+
+</html>
