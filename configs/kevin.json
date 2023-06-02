@@ -540,5 +540,77 @@
             ],
             "min": 36
         }
+    },{
+        "title": "Bellas artes",
+        "hv": {
+            "variables": [
+                "Creatividad",
+                "Adaptabilidad",
+                "Pensamiento crítico",
+                "Trabajo en equipo",
+                "Comunicación"
+            ],
+            "min": 60
+        },
+        "ht": {
+            "variables": [
+                "Matemáticas",
+                "Lectura y escritura"
+            ],
+            "min": 24
+        },
+        "i": {
+            "variables": [
+                "Entorno creativo",
+                "Comunicar",
+                "Trabajar con equipos",
+                "Interactuar con cosas o máquinas"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Apertura",
+                "Estabilidad emocional",
+                "Responsabilidad"
+            ],
+            "min": 36
+        }
+    },{
+        "title": "Lenguas extranjeras",
+        "hv": {
+            "variables": [
+                "Comunicación",
+                "Adaptabilidad",
+                "Pensamiento crítico",
+                "Organización",
+                "Manejo del tiempo"
+            ],
+            "min": 60
+        },
+        "ht": {
+            "variables": [
+                "Lectura y escritura",
+                "Tecnologías"
+            ],
+            "min": 24
+        },
+        "i": {
+            "variables": [
+                "Comunicar",
+                "Ayudar a otros",
+                "Servicio al cliente",
+                "Entorno creativo"
+            ],
+            "min": 32
+        },
+        "p": {
+            "variables": [
+                "Apertura",
+                "Responsabilidad",
+                "Extraversión"
+            ],
+            "min": 36
+        }
     }
 ]
