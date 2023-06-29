@@ -14,7 +14,7 @@
                 "Ciencias",
                 "Lectura y escritura"
             ],
-            "min": 36
+            "min": 24
         },
         "i": {
             "variables": [
@@ -44,7 +44,7 @@
                 "Resolución de problemas",
                 "Manejo del tiempo"
             ],
-            "min": 96
+            "min": 84
         },
         "ht": {
             "variables": [
