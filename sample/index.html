@@ -111,6 +111,7 @@
         const Test = ({ type, result, setResult }) => {
             const [questions, setQuestions] = React.useState([]);
             const [answers, setAnswers] = React.useState({});
+            const [hidden, setHidden] = React.useState("")
 
             let path = window.location.href.replace("/sample", "");
 
@@ -138,6 +139,7 @@
                 result = await result.json();
                 if (result.success) {
                     setResult(result.data);
+                    setHidden("visually-hidden")
                     const Result = Parse.Object.extend("Result");
                     const _result = new Result();
                     _result.set("result", result.data)
@@ -174,7 +176,7 @@
                     })}
                     <div className="d-grid gap-2">
                         <button className="btn btn-light visually-hidden" type="button" onClick={fillAnswers}>Llenar respuestas</button>
-                        <button className="btn btn-light" type="submit">Enviar</button>
+                        <button className={`btn btn-light ${hidden}`} type="submit">Enviar</button>
                     </div>
                     <Result result={result} type={type} />
                 </form>
