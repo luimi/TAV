@@ -7,7 +7,7 @@
     <title>Sample</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        
+
 </head>
 
 <body>
@@ -15,11 +15,12 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://npmcdn.com/parse@4.1.0/dist/parse.min.js"></script>
     <script type="text/babel">
         const Result = ({ result, type }) => {
 
             const getData = () => {
-                if(!result || result.length == 0) return;
+                if (!result || result.length == 0) return;
                 switch (type) {
                     case "gardner":
                         return (
@@ -110,7 +111,7 @@
         const Test = ({ type, result, setResult }) => {
             const [questions, setQuestions] = React.useState([]);
             const [answers, setAnswers] = React.useState({});
-            
+
             let path = window.location.href.replace("/sample", "");
 
             React.useEffect(() => {
@@ -137,6 +138,10 @@
                 result = await result.json();
                 if (result.success) {
                     setResult(result.data);
+                    const Result = Parse.Object.extend("Result");
+                    const _result = new Result();
+                    _result.set("result", result.data)
+                    _result.save()
                 } else {
                     alert(result.message);
                 }
@@ -182,6 +187,8 @@
                 setResult([]);
                 setType(evt.target.value);
             }
+            Parse.initialize("hgSrGX8QvZYqJa2S7vsIbkEREPg7RyrA6LZF3jOE", "BMmJOnxkLoul0tPtkpVjTObkPpSagMXY1theCFQ9");
+            Parse.serverURL = 'https://parseapi.back4app.com'
             return (
                 <div>
                     <nav className="navbar bg-body-tertiary">
@@ -195,7 +202,7 @@
                             <option value="gardner">Gardner</option>
                             <option value="kevin">Kevin</option>
                         </select>
-                        {type?<Test type={type} result={result} setResult={setResult}/>:null}
+                        {type ? <Test type={type} result={result} setResult={setResult} /> : null}
                     </div>
 
                 </div>
