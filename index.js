@@ -6,7 +6,11 @@ const router = express.Router();
 const path = require('path');
 const {validateType, validateAnswers} = require('./utils');
 app.use(bodyParser.raw({ inflate: true, limit: '100kb', type: 'application/json' }));
-
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
 
 const tests = {
   gardner: {
