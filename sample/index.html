@@ -143,6 +143,7 @@
                     const Result = Parse.Object.extend("Result");
                     const _result = new Result();
                     _result.set("result", result.data)
+                    _result.set("from", "sample")
                     _result.save()
                 } else {
                     alert(result.message);
