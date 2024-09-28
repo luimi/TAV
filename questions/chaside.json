@@ -1,0 +1,590 @@
+[
+    {
+        "id": 1,
+        "text": "¿Aceptarías trabajar escribiendo artículos en la sección económica de un diario?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 2,
+        "text": "¿Te ofrecerías para organizar la despedida de soltero de uno de tus amigos?",
+        "group": "ca",
+        "type": "tf"
+    },
+    {
+        "id": 3,
+        "text": "¿Te gustaría dirigir/crear un proyecto de urbanización en tu provincia?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 4,
+        "text": "¿A una frustración siempre opones un pensamiento positivo?",
+        "group": "sa",
+        "type": "tf"
+    },
+    {
+        "id": 5,
+        "text": "¿Te dedicarías a socorrer a personas accidentadas o atacadas por asaltantes?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 6,
+        "text": "¿Cuando eras chico, te interesaba saber cómo estaban construidos tus juguetes?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 7,
+        "text": "¿Te interesan más los misterios de la naturaleza que los secretos de la tecnología?",
+        "group": "ea",
+        "type": "tf"
+    },
+    {
+        "id": 8,
+        "text": "¿Escuchas atentamente los problemas que te plantean tus amigos?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 9,
+        "text": "¿Te ofrecerías para explicar a tus compañeros un determinado tema que ellos no entendieron?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 10,
+        "text": "¿Eres exigente y crítico con tu equipo de trabajo?",
+        "group": "ia",
+        "type": "tf"
+    },
+    {
+        "id": 11,
+        "text": "¿Te atrae armar rompecabezas o puzzles?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 12,
+        "text": "¿Te gustaría conocer la diferencia entre macroeconomía y microeconomía?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 13,
+        "text": "¿Usar uniforme te hace sentir distinto, importante?",
+        "group": "da",
+        "type": "tf"
+    },
+    {
+        "id": 14,
+        "text": "¿Participarías como profesional en un espectáculo de acrobacia aérea?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 15,
+        "text": "¿Organizas tu dinero de manera que te alcance hasta el próximo cobro?",
+        "group": "ca",
+        "type": "tf"
+    },
+    {
+        "id": 16,
+        "text": "¿Convences fácilmente a otras personas sobre la validez de tus argumentos?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 17,
+        "text": "¿Te gustaría estar informado sobre los nuevos descubrimientos que se están realizando sobre el origen del Universo?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 18,
+        "text": "¿Ante una situación de emergencia actúas rápidamente?",
+        "group": "da",
+        "type": "tf"
+    },
+    {
+        "id": 19,
+        "text": "¿Cuando tienes que resolver un problema matemático, perseveras hasta encontrar la solución?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 20,
+        "text": "¿Si te convocara tu club preferido para planificar, organizar y dirigir un campo de deportes, aceptarías?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 21,
+        "text": "¿Eres el que pone un toque de alegría en las fiestas?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 22,
+        "text": "¿Crees que los detalles son tan importantes como el todo?",
+        "group": "aa",
+        "type": "tf"
+    },
+    {
+        "id": 23,
+        "text": "¿Te sentirías a gusto trabajando en un ámbito hospitalario?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 24,
+        "text": "¿Te gustaría participar para mantener el orden ante grandes desórdenes y cataclismos?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 25,
+        "text": "¿Pasarías varias horas leyendo algún libro de tu interés?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 26,
+        "text": "¿Planificas detalladamente tus trabajos antes de empezar?",
+        "group": "ia",
+        "type": "tf"
+    },
+    {
+        "id": 27,
+        "text": "¿Entablas una relación casi personal con tu ordenador?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 28,
+        "text": "¿Disfrutas modelando con arcilla?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 29,
+        "text": "¿Ayudas habitualmente a los no videntes (a quien lo necesite) a cruzar la calle?",
+        "group": "sa",
+        "type": "tf"
+    },
+    {
+        "id": 30,
+        "text": "¿Consideras importante que desde la educación secundaria se fomente la actitud crítica y la participación activa?",
+        "group": "ha",
+        "type": "tf"
+    },
+    {
+        "id": 31,
+        "text": "¿Aceptarías que las mujeres formaran parte de las fuerzas armadas bajo las mismas normas que los hombres?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 32,
+        "text": "¿Te gustaría crear nuevas técnicas para descubrir las patologías de algunas enfermedades a través del microscopio?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 33,
+        "text": "¿Participarías en una campaña de prevención contra la enfermedad como el sida?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 34,
+        "text": "¿Te interesan los temas relacionados al pasado y a la evolución del hombre?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 35,
+        "text": "¿Te incluirías en un proyecto de investigación de los movimientos sísmicos y sus consecuencias?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 36,
+        "text": "¿Fuera de los horarios escolares, dedicas algún día de la semana a la realización de actividades corporales?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 37,
+        "text": "¿Te interesan las actividades de mucha acción y de reacción rápida en situaciones imprevistas y de algún peligro?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 38,
+        "text": "¿Te ofrecerías para colaborar como voluntario en los gabinetes espaciales de la NASA?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 39,
+        "text": "¿Te gusta más el trabajo manual que el trabajo intelectual?",
+        "group": "aa",
+        "type": "tf"
+    },
+    {
+        "id": 40,
+        "text": "¿Estarías dispuesto a renunciar a un momento placentero para ofrecer tu servicio como profesional (ayudando)?",
+        "group": "sa",
+        "type": "tf"
+    },
+    {
+        "id": 41,
+        "text": "¿Participarías de una investigación sobre la violencia en el fútbol?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 42,
+        "text": "¿Te gustaría trabajar en un laboratorio mientras estudias?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 43,
+        "text": "¿Arriesgarías tu vida para salvar la vida de otro que no conoces?",
+        "group": "da",
+        "type": "tf"
+    },
+    {
+        "id": 44,
+        "text": "¿Te agradaría hacer un curso de primeros auxilios?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 45,
+        "text": "¿Tolerarías empezar tantas veces como fuere necesario hasta obtener el logro deseado?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 46,
+        "text": "¿Distribuyes tu horarios del día adecuadamente para poder hacer todo lo planeado?",
+        "group": "ca",
+        "type": "tf"
+    },
+    {
+        "id": 47,
+        "text": "¿Harías un curso para aprender a fabricar los instrumentos y/o piezas de las máquinas o aparatos con que trabajas?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 48,
+        "text": "¿Elegirías una profesión en la tuvieras que estar algunos meses alejado de tu familia, por ejemplo el marino?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 49,
+        "text": "¿Te radicarías en una zona agrícola-ganadera para desarrollar tus actividades como profesional?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 50,
+        "text": "¿Cuando estás en un grupo trabajando, te entusiasma producir ideas originales y que sean tenidas en cuenta?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 51,
+        "text": "¿Te resulta fácil coordinar un grupo de trabajo?",
+        "group": "ca",
+        "type": "tf"
+    },
+    {
+        "id": 52,
+        "text": "¿Te resultó interesante el estudio de las ciencias biológicas?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 53,
+        "text": "¿Si una gran empresa solicita un profesional como gerente de comercialización, te sentirías a gusto desempeñando ese rol?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 54,
+        "text": "¿Te incluirías en un proyecto nacional de desarrollo de la principal fuente de recursos de tu provincia?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 55,
+        "text": "¿Tienes interés por saber cuales son las causas que determinan ciertos fenómenos, aunque saberlo no altere tu vida?",
+        "group": "ea",
+        "type": "tf"
+    },
+    {
+        "id": 56,
+        "text": "¿Descubriste algún filósofo o escritor que haya expresado tus mismas ideas con antelación?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 57,
+        "text": "¿Desearías que te regalen algún instrumento musical para tu cumpleaños?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 58,
+        "text": "¿Aceptarías colaborar con el cumplimiento de las normas en lugares públicos?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 59,
+        "text": "¿Crees que tus ideas son importantes, y haces todo lo posible para ponerlas en práctica?",
+        "group": "ia",
+        "type": "tf"
+    },
+    {
+        "id": 60,
+        "text": "¿Cuando se descompone un artefacto en tu casa, te dispones prontamente a repararlo?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 61,
+        "text": "¿Formarías parte de un equipo de trabajo orientado a la preservación de la flora y la fauna en extinción?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 62,
+        "text": "¿Leerías revistas relacionadas con los últimos avances científicos y tecnológicos en el área de la salud?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 63,
+        "text": "¿Preservar las raíces culturales de nuestro país, te parece importante y necesario?",
+        "group": "ha",
+        "type": "tf"
+    },
+    {
+        "id": 64,
+        "text": "¿Te gustaría realizar una investigación que contribuyera a hacer más justa la distribución de la riqueza?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 65,
+        "text": "¿Te gustaría realizar tareas auxiliares en una nave, como por ejemplo izado y arriado de velas, pintura y conservación del casco, arreglo de averías, conservación de motores, etc.?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 66,
+        "text": "¿Crees que un país debe poseer la más alta tecnología armamentista, a cualquier precio?",
+        "group": "da",
+        "type": "tf"
+    },
+    {
+        "id": 67,
+        "text": "¿La libertad y la justicia son valores fundamentales en tu vida?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 68,
+        "text": "¿Aceptarías hacer una práctica pagadas en una industria de productos alimenticios en el sector de control de calidad?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 69,
+        "text": "¿Consideras que la salud pública debe ser prioritaria, gratuita y eficiente para todos?",
+        "group": "sa",
+        "type": "tf"
+    },
+    {
+        "id": 70,
+        "text": "¿Te interesaría investigar sobre alguna nueva vacuna?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 71,
+        "text": "¿En un equipo de trabajo, preferís el rol de coordinador?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 72,
+        "text": "¿En una discusión entre amigos, te ofreces como mediador?",
+        "group": "ha",
+        "type": "tf"
+    },
+    {
+        "id": 73,
+        "text": "¿Estás de acuerdo con la formación de un cuerpo de soldados profesionales?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 74,
+        "text": "¿Lucharías por una causa justa hasta las últimas consecuencias?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 75,
+        "text": "¿Te gustaría investigar científicamente sobre cultivos agrícolas?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 76,
+        "text": "¿Harías un nuevo diseño de una prenda pasada de moda, ante una reunión?",
+        "group": "aa",
+        "type": "tf"
+    },
+    {
+        "id": 77,
+        "text": "¿Visitarías un observatorio astronómico para conocer en acción el funcionamiento de los aparatos?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 78,
+        "text": "¿Dirigirías el área de importación y exportación de una empresa?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 79,
+        "text": "¿Te cohíbes/inhibes –cortas- al entrar a un lugar nuevo con gente desconocida?",
+        "group": "ea",
+        "type": "tf"
+    },
+    {
+        "id": 80,
+        "text": "¿Te gratificaría el trabajar con niños?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 81,
+        "text": "¿Harías el diseño de un cartel o afiche para una campaña contra el sida?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 82,
+        "text": "¿Dirigirías un grupo de teatro independiente?",
+        "group": "aa",
+        "type": "tf"
+    },
+    {
+        "id": 83,
+        "text": "¿Enviarías tu curriculum a una empresa automotriz que solicita gerente para su área de producción?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 84,
+        "text": "¿Participarías en un grupo de defensa internacional dentro de alguna fuerza armada?",
+        "group": "di",
+        "type": "tf"
+    },
+    {
+        "id": 85,
+        "text": "¿Te costearías tus estudios trabajando en una auditoría –revisión de las cuentas-?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 86,
+        "text": "¿Eres de los que defiendes causas perdidas?",
+        "group": "ha",
+        "type": "tf"
+    },
+    {
+        "id": 87,
+        "text": "¿Ante una emergencia epidémica participarías en una campaña brindando tu ayuda?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 88,
+        "text": "¿Sabrías responder que significa ADN o ARN?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 89,
+        "text": "¿Elegirías una carrera cuyo instrumento de trabajo fuere la utilización de un idioma extranjero?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 90,
+        "text": "¿Trabajar con objetos, máquinas, te resulta más gratificante que trabajar con personas?",
+        "group": "ia",
+        "type": "tf"
+    },
+    {
+        "id": 91,
+        "text": "¿Te resultaría gratificante ser asesor contable en una empresa reconocida?",
+        "group": "ci",
+        "type": "tf"
+    },
+    {
+        "id": 92,
+        "text": "¿Ante un llamado solidario, te ofrecerías para cuidar a un enfermo?",
+        "group": "si",
+        "type": "tf"
+    },
+    {
+        "id": 93,
+        "text": "¿Te atrae investigar sobre los misterios del universo, por ejemplo los agujeros negros?",
+        "group": "ei",
+        "type": "tf"
+    },
+    {
+        "id": 94,
+        "text": "¿El trabajo individual te resulta más rápido y efectivo que el trabajo grupal?",
+        "group": "ea",
+        "type": "tf"
+    },
+    {
+        "id": 95,
+        "text": "¿Dedicarías parte de tu tiempo a ayudar a personas con carencias o necesitadas?",
+        "group": "hi",
+        "type": "tf"
+    },
+    {
+        "id": 96,
+        "text": "¿Cuando eliges tu ropa o decoras un ambiente, tienes en cuenta la combinación de los colores, las telas o el estilo de los muebles?",
+        "group": "ai",
+        "type": "tf"
+    },
+    {
+        "id": 97,
+        "text": "¿Te gustaría trabajar como profesional dirigiendo la construcción de una empresa hidroeléctrica?",
+        "group": "ii",
+        "type": "tf"
+    },
+    {
+        "id": 98,
+        "text": "¿Sabes qué es el PIB? Se trata de un concepto económico. ¿Te gusta este tipo de tema?",
+        "group": "ci",
+        "type": "tf"
+    }
+]

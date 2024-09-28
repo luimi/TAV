@@ -20,6 +20,10 @@ const tests = {
   kevin: {
     questions: require('./questions/kevin.json'),
     solver: require('./solvers/kevin')
+  },
+  chaside: {
+    questions: require('./questions/chaside.json'),
+    solver: require('./solvers/chaside')
   }
 };
 

@@ -15,7 +15,6 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-    <script src="https://npmcdn.com/parse@4.1.0/dist/parse.min.js"></script>
     <script type="text/babel">
         const Result = ({ result, type }) => {
 
@@ -73,6 +72,76 @@
                                 </tbody>
                             </table>
                         )
+                    case "chaside": {
+                        return (
+                            <div>
+                                <table className="table text-center">
+                                <thead>
+                                    <tr>
+                                        <th>Intereses</th>
+                                        <th>Aptitudes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <table className="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>C</th>
+                                                        <th>H</th>
+                                                        <th>A</th>
+                                                        <th>S</th>
+                                                        <th>I</th>
+                                                        <th>D</th>
+                                                        <th>E</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>{result.ci}</th>
+                                                        <th>{result.hi}</th>
+                                                        <th>{result.ai}</th>
+                                                        <th>{result.si}</th>
+                                                        <th>{result.ii}</th>
+                                                        <th>{result.di}</th>
+                                                        <th>{result.ei}</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </td>
+                                        <td>
+                                            <table className="table">
+                                                <thead>
+                                                    <tr>
+                                                        <th>C</th>
+                                                        <th>H</th>
+                                                        <th>A</th>
+                                                        <th>S</th>
+                                                        <th>I</th>
+                                                        <th>D</th>
+                                                        <th>E</th>
+                                                    </tr>
+                                                    <tr>
+                                                        <th>{result.ca}</th>
+                                                        <th>{result.ha}</th>
+                                                        <th>{result.aa}</th>
+                                                        <th>{result.sa}</th>
+                                                        <th>{result.ia}</th>
+                                                        <th>{result.da}</th>
+                                                        <th>{result.ea}</th>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3>Intereses - {result.i.title}</h3>
+                            <p>{result.i.description}</p>
+                            <h3>Aptitudes - {result.a.title}</h3>
+                            <p>{result.a.description}</p>
+                            </div>
+                        )
+                    }
                 }
             }
             return (
@@ -128,7 +197,6 @@
             }
             const sendAnswers = async (evt) => {
                 evt.preventDefault();
-
                 let result = await fetch(`${path}/answer?type=${type}`, {
                     method: "POST",
                     headers: {
@@ -140,11 +208,6 @@
                 if (result.success) {
                     setResult(result.data);
                     setHidden("visually-hidden")
-                    const Result = Parse.Object.extend("Result");
-                    const _result = new Result();
-                    _result.set("result", result.data)
-                    _result.set("from", "sample")
-                    _result.save()
                 } else {
                     alert(result.message);
                 }
@@ -157,6 +220,7 @@
             const fillAnswers = () => {
                 let _answers = [];
                 switch (type) {
+                    case "chaside":
                     case "gardner":
                         questions.forEach(question => {
                             _answers.push({ id: question.id, response: true });
@@ -176,8 +240,9 @@
                         return <Question question={question} key={question.id} addAnswer={addAnswer} />
                     })}
                     <div className="d-grid gap-2">
+                        {/* visually-hidden */}
                         <button className="btn btn-light visually-hidden" type="button" onClick={fillAnswers}>Llenar respuestas</button>
-                        <button className={`btn btn-light ${hidden}`} type="submit">Enviar</button>
+                        <button className={`btn btn-primary ${hidden}`} type="submit">Enviar</button>
                     </div>
                     <Result result={result} type={type} />
                 </form>
@@ -190,8 +255,6 @@
                 setResult([]);
                 setType(evt.target.value);
             }
-            Parse.initialize("hgSrGX8QvZYqJa2S7vsIbkEREPg7RyrA6LZF3jOE", "BMmJOnxkLoul0tPtkpVjTObkPpSagMXY1theCFQ9");
-            Parse.serverURL = 'https://parseapi.back4app.com'
             return (
                 <div>
                     <nav className="navbar bg-body-tertiary">
@@ -204,6 +267,7 @@
                             <option>Seleccione un test</option>
                             <option value="gardner">Gardner</option>
                             <option value="kevin">Kevin</option>
+                            <option value="chaside">Chaside</option>
                         </select>
                         {type ? <Test type={type} result={result} setResult={setResult} /> : null}
                     </div>

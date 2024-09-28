@@ -1,0 +1,30 @@
+{
+    "c": {
+        "title": "Área Administrativa",
+        "description": "Organización, Supervisión, Orden, Análisis y síntesis, Colaboración, Cálculo, Persuasivo, Objetivo, Práctico, Tolerante, Responsable, Ambicioso"
+    },
+    "h": {
+        "title": "Área de Humanidades y Ciencias Sociales y Jurídicas",
+        "description" : "Precisión Verbal, Organización, Relación de hechos, Lingüística, Orden, Justicia, Responsable, Justo, Conciliador, Persuasivo, Sagaz, Imaginativo"
+    },
+    "a": {
+        "title": "Área Artística",
+        "description": "Estético, Armónico, Manual, Visual, Auditivo, Sensible, Imaginativo, Creativo, Detallista, Innovador, Intuitivo"
+    },
+    "s": {
+        "title": "Área de Ciencias de la Salud",
+        "description": "Asistir, Investigar, Precisión, Percepción, Análisis, Ayudar, Altruista, Solidario, Paciente, Comprensivo, Respetuoso, Persuasivo"
+    },
+    "i": {
+        "title": "Área de Enseñanzas Técnicas",
+        "description": "Cálculo, Científico, Manual, Exactitud, Planificar, Preciso, Práctico, Crítico, Analítico, Rígido"
+    },
+    "d": {
+        "title": "Área de Defensa y Seguridad",
+        "description": "Justicia, Equidad, Colaboración, Espíritu de, equipo, Liderazgo, Arriesgado, Solidario, Valiente, Agresivo, Persuasivo"
+    },
+    "e": {
+        "title": "Área de Ciencias Experimentales",
+        "description": "Investigación, Orden, Organización, Análisis y Síntesis, Cálculo numérico, Clasificar, Metódico, Analítico, Observador, Introvertido, Paciente, Seguro"
+    }
+}
