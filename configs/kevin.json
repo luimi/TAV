@@ -431,38 +431,6 @@
             "min": 24
         }
     },{
-        "title": "Agricultura",
-        "hv": {
-            "variables": [
-                "Organización",
-                "Manejo del tiempo",
-                "Resolución de problemas",
-                "Trabajo en equipo",
-                "Adaptabilidad"
-            ],
-            "min": 60
-        },
-        "ht": {
-            "variables": [
-                "Ciencias"
-            ],
-            "min": 12
-        },
-        "i": {
-            "variables": [
-                "Interactuar con cosas o máquinas",
-                "Trabajar con equipos"
-            ],
-            "min": 16
-        },
-        "p": {
-            "variables": [
-                "Responsabilidad",
-                "Estabilidad emocional"
-            ],
-            "min": 24
-        }
-    },{
         "title": "Turismo",
         "hv": {
             "variables": [
