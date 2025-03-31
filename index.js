@@ -24,7 +24,11 @@ const tests = {
   chaside: {
     questions: require('./questions/chaside.json'),
     solver: require('./solvers/chaside')
-  }
+  },
+  kevinGemini: {
+    questions: require('./questions/kevinGemini.json'),
+    solver: require('./solvers/kevinGemini')
+  },
 };
 
 router.get('/', (req,res) => {

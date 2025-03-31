@@ -43,6 +43,7 @@
                                 </tbody>
                             </table>
                         )
+                    case "kevinGemini":
                     case "kevin":
                         return (
                             <table className="table">
@@ -226,6 +227,7 @@
                             _answers.push({ id: question.id, response: true });
                         });
                         break;
+                    case "kevinGemini":
                     case "kevin":
                         questions.forEach(question => {
                             _answers.push({ id: question.id, response: 5 });
@@ -268,6 +270,7 @@
                             <option value="gardner">Gardner</option>
                             <option value="kevin">Kevin</option>
                             <option value="chaside">Chaside</option>
+                            <option value="kevinGemini">Kevin Gemini</option>
                         </select>
                         {type ? <Test type={type} result={result} setResult={setResult} /> : null}
                     </div>

@@ -1,0 +1,325 @@
+[
+    {
+      "title": "Servicios médicos",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas", "Trabajo en equipo", "Amabilidad", "Responsabilidad", "Servicio al cliente"],
+        "min": 6
+      },
+      "ht": {
+        "variables": ["Ciencias"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Ayudar a otros", "Entorno estable"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Amabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Ingenierías",
+      "hv": {
+        "variables": ["Resolución de problemas", "Organización", "Pensamiento crítico", "Manejo del tiempo", "Trabajo en equipo", "Responsabilidad"],
+        "min": 5
+      },
+      "ht": {
+        "variables": ["Matemáticas", "Tecnologías", "Interactuar con cosas o máquinas"],
+        "min": 2
+      },
+      "i": {
+        "variables": ["Trabajar con equipos", "Entorno estable"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Responsabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Ciencias políticas y derecho",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas", "Liderazgo", "Pensamiento crítico", "Responsabilidad"],
+        "min": 4
+      },
+      "ht": {
+        "variables": ["Lectura y escritura", "Datos"],
+        "min": 2
+      },
+      "i": {
+        "variables": ["Entorno estable"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Extraversión"],
+        "min": 2
+      }
+    },
+      {
+      "title": "Tecnologías de la información",
+      "hv": {
+        "variables": ["Resolución de problemas", "Organización", "Pensamiento crítico", "Manejo del tiempo", "Trabajo en equipo", "Responsabilidad"],
+        "min": 5
+      },
+      "ht": {
+        "variables": ["Tecnologías", "Datos"],
+        "min": 2
+      },
+      "i": {
+        "variables": ["Trabajar con equipos", "Entorno estable"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Responsabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Arquitectura y diseño",
+      "hv": {
+        "variables": ["Creatividad", "Resolución de problemas", "Organización", "Pensamiento crítico", "Trabajo en equipo"],
+        "min": 4
+      },
+      "ht": {
+        "variables": ["Tecnologías", "Interactuar con cosas o máquinas"],
+        "min": 2
+      },
+      "i": {
+        "variables": ["Entorno creativo"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Apertura"],
+        "min": 1
+      }
+    },
+    {
+      "title": "Educación",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas", "Organización", "Amabilidad", "Responsabilidad", "Servicio al cliente"],
+        "min": 5
+      },
+      "ht": {
+        "variables": ["Lectura y escritura"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Ayudar a otros", "Entorno estable", "Trabajar con equipos"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Extraversión"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Administración y negocios",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas", "Liderazgo", "Organización", "Pensamiento crítico", "Manejo del tiempo", "Trabajo en equipo", "Responsabilidad"],
+        "min": 6
+      },
+      "ht": {
+        "variables": ["Matemáticas", "Datos"],
+        "min": 2
+      },
+      "i": {
+        "variables": ["Entorno estable", "Trabajar con equipos"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Extraversión", "Responsabilidad"],
+        "min": 2
+      }
+    },
+      {
+      "title": "Ventas",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas", "Organización", "Manejo del tiempo", "Trabajo en equipo", "Responsabilidad", "Servicio al cliente"],
+        "min": 4
+      },
+      "ht": {
+        "variables": ["Ventas", "Datos"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Trabajar con equipos"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Extraversión", "Estabilidad emocional"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Servicio al cliente",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas", "Amabilidad", "Responsabilidad", "Servicio al cliente"],
+        "min": 4
+      },
+      "ht": {
+        "variables": ["Ventas"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Ayudar a otros"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Extraversión", "Amabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Manufactura",
+      "hv": {
+        "variables": ["Resolución de problemas", "Organización", "Pensamiento crítico", "Manejo del tiempo", "Trabajo en equipo", "Responsabilidad"],
+        "min": 5
+      },
+      "ht": {
+        "variables": ["Interactuar con cosas o máquinas"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Entorno estable", "Trabajar con equipos"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Responsabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Transporte",
+      "hv": {
+        "variables": ["Resolución de problemas", "Organización", "Manejo del tiempo", "Responsabilidad"],
+        "min": 4
+      },
+      "ht": {
+        "variables": ["Interactuar con cosas o máquinas"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Entorno estable"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Responsabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Logística",
+      "hv": {
+        "variables": ["Resolución de problemas", "Organización", "Pensamiento crítico", "Manejo del tiempo", "Trabajo en equipo", "Responsabilidad"],
+        "min": 5
+      },
+      "ht": {
+        "variables": ["Datos"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Entorno estable", "Trabajar con equipos"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Responsabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Agricultura",
+      "hv": {
+        "variables": ["Resolución de problemas", "Organización", "Responsabilidad"],
+        "min": 3
+      },
+      "ht": {
+        "variables": ["Interactuar con cosas o máquinas"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Entorno estable"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Estabilidad emocional", "Responsabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Turismo",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas", "Organización", "Manejo del tiempo", "Trabajo en equipo", "Servicio al cliente"],
+        "min": 5
+      },
+      "ht": {
+        "variables": ["Ventas"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Trabajar con equipos"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Extraversión", "Amabilidad"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Comunicación y periodismo",
+      "hv": {
+        "variables": ["Comunicación", "Creatividad", "Resolución de problemas", "Pensamiento crítico", "Manejo del tiempo", "Trabajo en equipo"],
+        "min": 5
+      },
+      "ht": {
+        "variables": ["Lectura y escritura", "Datos"],
+        "min": 2
+      },
+      "i": {
+        "variables": ["Entorno creativo", "Trabajar con equipos"],
+        "min": 2
+      },
+      "p": {
+        "variables": ["Extraversión", "Apertura"],
+        "min": 2
+      }
+    },
+    {
+      "title": "Bellas artes",
+      "hv": {
+        "variables": ["Creatividad", "Comunicación", "Organización", "Manejo del tiempo"],
+        "min": 4
+      },
+      "ht": {
+        "variables": ["Interactuar con cosas o máquinas"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Entorno creativo"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Apertura"],
+        "min": 1
+      }
+    },
+    {
+      "title": "Lenguas extranjeras",
+      "hv": {
+        "variables": ["Comunicación", "Resolución de problemas"],
+        "min": 2
+      },
+      "ht": {
+        "variables": ["Lectura y escritura"],
+        "min": 1
+      },
+      "i": {
+        "variables": ["Trabajar con equipos"],
+        "min": 1
+      },
+      "p": {
+        "variables": ["Extraversión", "Apertura"],
+        "min": 2
+      }
+    }
+  ]
