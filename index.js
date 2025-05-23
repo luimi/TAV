@@ -17,6 +17,7 @@ const tests = {
     questions: require('./questions/gardner.json'),
     solver: require('./solvers/gardner')
   },
+  //Creditos kevin salgado rubio
   kevin: {
     questions: require('./questions/kevin.json'),
     solver: require('./solvers/kevin')
