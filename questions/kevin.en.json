@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Communication",
+        "text": "I feel very confident when communicating with others"
+    },
+    {
+        "id": 2,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Communication",
+        "text": "I do very well when giving public presentations"
+    },
+    {
+        "id": 3,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Communication",
+        "text": "I can easily start a conversation with a stranger"
+    },
+    {
+        "id": 4,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Problem solving",
+        "text": "I can easily identify the causes of problems"
+    },
+    {
+        "id": 5,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Problem solving",
+        "text": "I can quickly solve any problem I identify"
+    }
+]
