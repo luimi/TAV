@@ -1,0 +1,506 @@
+[
+    {
+        "id": 1,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Communication",
+        "text": "I feel very confident when communicating with other people"
+    },
+    {
+        "id": 2,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Communication",
+        "text": "I do very well when giving exhibitions or public presentations"
+    },
+    {
+        "id": 3,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Communication",
+        "text": "I can easily strike up a conversation with a stranger"
+    },
+    {
+        "id": 4,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Problem solving",
+        "text": "I easily identify the causes of problems"
+    },
+    {
+        "id": 5,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Problem solving",
+        "text": "I can quickly solve any problem I identify"
+    },
+    {
+        "id": 6,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Problem solving",
+        "text": "I don't rest until a problem is completely solved"
+    },
+    {
+        "id": 7,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Teamwork",
+        "text": "I work better in a team than individually"
+    },
+    {
+        "id": 8,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Teamwork",
+        "text": "I easily adapt to the groups or teams I have to work with"
+    },
+    {
+        "id": 9,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Teamwork",
+        "text": "I always fulfill all the tasks or responsibilities assigned to me in a group work"
+    },
+    {
+        "id": 10,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Critical thinking",
+        "text": "Before making a decision, I look for information"
+    },
+    {
+        "id": 11,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Critical thinking",
+        "text": "I am always very careful to verify the information I need to make a decision"
+    },
+    {
+        "id": 12,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Critical thinking",
+        "text": "I can easily find patterns when analyzing information or data"
+    },
+    {
+        "id": 13,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Creativity",
+        "text": "I am one of those people that others identify as creative"
+    },
+    {
+        "id": 14,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Creativity",
+        "text": "I always explore creative ways to carry out the tasks or responsibilities assigned to me"
+    },
+    {
+        "id": 15,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Creativity",
+        "text": "If creativity is needed to solve a problem, they call me"
+    },
+    {
+        "id": 16,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Leadership",
+        "text": "When working in a group, I am one of the people who takes the initiative before others"
+    },
+    {
+        "id": 17,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Leadership",
+        "text": "I can easily organize the tasks that each person has to perform when working in a group"
+    },
+    {
+        "id": 18,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Leadership",
+        "text": "I can easily get people to follow my ideas"
+    },
+    {
+        "id": 19,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Adaptability",
+        "text": "I quickly adapt to unforeseen changes or situations"
+    },
+    {
+        "id": 20,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Adaptability",
+        "text": "Even if things don't go as expected, I usually accept them and move on"
+    },
+    {
+        "id": 21,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Adaptability",
+        "text": "When I see that the results are not being achieved, I can change my way of working"
+    },
+    {
+        "id": 22,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Time management",
+        "text": "I always meet deadlines for deliveries or tasks"
+    },
+    {
+        "id": 23,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Time management",
+        "text": "When I have several tasks or responsibilities, I set priorities to dedicate more time to some"
+    },
+    {
+        "id": 24,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Time management",
+        "text": "I can perform several tasks or responsibilities at the same time"
+    },
+    {
+        "id": 25,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Organization",
+        "text": "I consider myself a very organized person"
+    },
+    {
+        "id": 26,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Organization",
+        "text": "I usually organize my tasks or responsibilities according to certain criteria"
+    },
+    {
+        "id": 27,
+        "type": "1to5",
+        "category": "Life skills",
+        "variable": "Organization",
+        "text": "Before starting a job, I plan in detail what I am going to do"
+    },
+    {
+        "id": 28,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Mathematics",
+        "text": "I usually do very well with numbers"
+    },
+    {
+        "id": 29,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Mathematics",
+        "text": "I do better performing mathematical calculations than any other activity"
+    },
+    {
+        "id": 30,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Mathematics",
+        "text": "I usually have an easy time performing mathematical calculations"
+    },
+    {
+        "id": 31,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Reading and writing",
+        "text": "I dedicate a significant part of my time to reading"
+    },
+    {
+        "id": 32,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Reading and writing",
+        "text": "I write coherent texts with great ease"
+    },
+    {
+        "id": 33,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Reading and writing",
+        "text": "I usually easily identify the thesis of a text and the arguments that defend it"
+    },
+    {
+        "id": 34,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Sciences",
+        "text": "I am seduced by the idea of understanding how things work"
+    },
+    {
+        "id": 35,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Sciences",
+        "text": "I am able to find accurate information that allows me to deeply understand a topic"
+    },
+    {
+        "id": 36,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Sciences",
+        "text": "I can formulate a hypothesis and propose a way to solve it"
+    },
+    {
+        "id": 37,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Technologies",
+        "text": "I am one of those people who are always asked for help with digital tools"
+    },
+    {
+        "id": 38,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Technologies",
+        "text": "I usually quickly learn how to use a new technological tool"
+    },
+    {
+        "id": 39,
+        "type": "1to5",
+        "category": "Technical skills",
+        "variable": "Technologies",
+        "text": "I seek to understand how digital platforms work"
+    },
+    {
+        "id": 40,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Work with teams",
+        "text": "In a work environment, I would prefer to work in a team"
+    },
+    {
+        "id": 41,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Work with teams",
+        "text": "I prefer to work with company and not alone"
+    },
+    {
+        "id": 42,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Customer service",
+        "text": "I like helping people solve problems"
+    },
+    {
+        "id": 43,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Customer service",
+        "text": "I would rather work in customer service than in administrative services"
+    },
+    {
+        "id": 44,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Sales",
+        "text": "I have the skills to convince people to buy or acquire products and services"
+    },
+    {
+        "id": 45,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Sales",
+        "text": "I would rather work in sales than in administrative tasks"
+    },
+    {
+        "id": 46,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Data",
+        "text": "I would like to work in data analysis"
+    },
+    {
+        "id": 47,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Data",
+        "text": "I prefer working with numbers than with texts"
+    },
+    {
+        "id": 48,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Helping others",
+        "text": "If I had the opportunity, I would like to work helping people"
+    },
+    {
+        "id": 49,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Helping others",
+        "text": "Helping people moves me more than working with numbers"
+    },
+    {
+        "id": 50,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Interact with things or machines",
+        "text": "I prefer working by interacting with people rather than interacting with things or machines"
+    },
+    {
+        "id": 51,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Interact with things or machines",
+        "text": "For me, interacting with people is more interesting than working alone"
+    },
+    {
+        "id": 52,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Communicate",
+        "text": "I would like to work in an environment where I have to speak in public"
+    },
+    {
+        "id": 53,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Communicate",
+        "text": "I would rather work writing texts than interacting with people"
+    },
+    {
+        "id": 54,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Creative environment",
+        "text": "I would like to work in an environment where I can be very creative"
+    },
+    {
+        "id": 55,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Creative environment",
+        "text": "I would choose an environment where I can innovate rather than one where I have to do pre-established things"
+    },
+    {
+        "id": 56,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Stable environment",
+        "text": "For me, a job where everything is planned in advance will always be better"
+    },
+    {
+        "id": 57,
+        "type": "1to5",
+        "category": "Interests",
+        "variable": "Stable environment",
+        "text": "I would prefer a stable work environment rather than one where things change frequently"
+    },
+    {
+        "id": 58,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Openness",
+        "text": "I am one of those people who are very open in social settings"
+    },
+    {
+        "id": 59,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Openness",
+        "text": "I can easily start a conversation with strangers"
+    },
+    {
+        "id": 60,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Openness",
+        "text": "I like to try new activities and explore different approaches to problem-solving"
+    },
+    {
+        "id": 61,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Conscientiousness",
+        "text": "I tend to be very organized and carefully plan my tasks and responsibilities"
+    },
+    {
+        "id": 62,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Conscientiousness",
+        "text": "I strive to complete my projects on time and fulfill my commitments"
+    },
+    {
+        "id": 63,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Conscientiousness",
+        "text": "I always take on my responsibilities even if I don't feel like doing the tasks"
+    },
+    {
+        "id": 64,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Extraversion",
+        "text": "I like to socialize and meet new people in different social settings"
+    },
+    {
+        "id": 65,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Extraversion",
+        "text": "I enjoy being the center of attention and actively participating in group conversations"
+    },
+    {
+        "id": 66,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Extraversion",
+        "text": "I usually feel energized when I interact with other people and have many opportunities to socialize"
+    },
+    {
+        "id": 67,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Agreeableness",
+        "text": "I make an effort to understand others' perspectives and treat people with empathy and understanding"
+    },
+    {
+        "id": 68,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Agreeableness",
+        "text": "I consider myself a friendly person and willing to help others when they need it"
+    },
+    {
+        "id": 69,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Agreeableness",
+        "text": "I value interpersonal relationships and strive to maintain a harmonious and peaceful environment"
+    },
+    {
+        "id": 70,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Emotional stability",
+        "text": "I remain calm and composed even in stressful or challenging situations"
+    },
+    {
+        "id": 71,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Emotional stability",
+        "text": "I am not easily affected by setbacks and can quickly recover from difficult times"
+    },
+    {
+        "id": 72,
+        "type": "1to5",
+        "category": "Personality",
+        "variable": "Emotional stability",
+        "text": "I tend to be an emotionally stable person and am rarely overwhelmed by anxiety or worry"
+    }
+]
